@@ -4,8 +4,8 @@
 我从电影《蜘蛛侠：平行宇宙》中获得灵感。影片中，每个蜘蛛侠角色都呈现出截然不同的画风风格（例如漫画风、黑白胶片风、赛博朋克风等），这些风格与角色所属的宇宙紧密相关。  
 我希望借鉴这一视觉策略，在我的互动项目中根据不同用户或对象的设定，应用不同的视觉风格，以增强表现力和个性表达。
 
-![Character Style Example 1](./assets/Example01.jpg)  
-![Character Style Example 2](./assets/Example02.jpg)
+![Character Style Example 1](assets/Example01.jpg)  
+![Character Style Example 2](assets/Example02.jpg)
 
 ---
 
