@@ -1,19 +1,21 @@
-# Week-09-Quiz
+# Quiz 8 - Design Research
+
 ## Part 1: Imaging Technique Inspiration
+I was inspired by "Spider-Man: Into the Spider-Verse", especially its visual expression method of "multiverse characters corresponding to different art styles". Each Spider-Man in the film has a unique artistic style, such as black-and-white comics, Japanese anime, 3D cartoons, etc., which are highly recognizable.
 
-I got inspiration from the movie "Spider-Man: Into the Spider-Verse". In the film, each Spider-Man character presents a completely different art style (such as comic style, black-and-white film style, cyberpunk style, etc.), and these styles are closely related to the universe to which the characters belong.
-I hope to draw on this visual strategy and apply different visual styles in my interactive projects based on the Settings of different users or objects to enhance expressiveness and individual expression.
+I hope to draw on this "style layering" strategy in my project, allowing different characters or states to express different backgrounds and emotions by switching image styles.
 
-![Character Style Example 1](assets/Example01.jpg)  
-![Character Style Example 2](assets/Example02.jpg)
----
+![Spider-Verse Character Different Styles](https://static1.cbrimages.com/wordpress/wp-content/uploads/2018/12/spider-verse10-1.jpg)
+
+![The psychological state of characters](https://www.agendamag.com/wp-content/uploads/2023/06/the-spot-from-spider-man-across-the-spider-verse-scene.jpg)
+
+![Spider-Verse Character Style](https://akm-img-a-in.tosshub.com/indiatoday/images/story/202305/pav-sixteen_nine.jpg?VersionId=nuY4DByPdinnRtXEE0oRVyaCVKA.EUG1)
 
 ## Part 2: Coding Technique Exploration
+In order to achieve the effect of different characters corresponding to different drawing styles, I choose to use the built-in 'filter()' function provided by **p5.js**. This function allows multiple preset filters to be applied to the canvas, such as GRAY, INVERT, BLUR, etc., thus easily achieving the switching of image styles.
 
-To achieve this stylized switch, I choose to use the 'filter()' function in **p5.js**. This function allows the application of preset visual effects such as grayscale, blur, and reverse color to the picture.
-I can automatically apply the corresponding filters based on the different characters selected by the user and quickly switch the art style.
+By dynamically invoking different filters when the user interacts with the character, the unique visual style of the character in different universes can be simulated. For example, when a user selects a specific character, the screen automatically applies the corresponding filter to enhance the personalized expression of the character.
 
-![p5.js Filter Example](assets/style.png)
+![Example](./assets/style.png)
 
-Sample link and code:
 [https://p5js.org/examples/3d-filter-shader/](https://p5js.org/examples/3d-filter-shader/)
