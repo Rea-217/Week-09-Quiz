@@ -6,7 +6,6 @@ I hope to draw on this visual strategy and apply different visual styles in my i
 
 ![Character Style Example 1](assets/Example01.jpg)  
 ![Character Style Example 2](assets/Example02.jpg)
-
 ---
 
 ## Part 2: Coding Technique Exploration
